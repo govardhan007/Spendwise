@@ -9,23 +9,55 @@
 /* Begin PBXBuildFile section */
 		EBE5B7AC2811AA95002F7053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7AB2811AA95002F7053 /* AppDelegate.swift */; };
 		EBE5B7AE2811AA95002F7053 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7AD2811AA95002F7053 /* SceneDelegate.swift */; };
-		EBE5B7B02811AA95002F7053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7AF2811AA95002F7053 /* ViewController.swift */; };
 		EBE5B7B32811AA95002F7053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE5B7B12811AA95002F7053 /* Main.storyboard */; };
 		EBE5B7B62811AA95002F7053 /* Spendwise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7B42811AA95002F7053 /* Spendwise.xcdatamodeld */; };
 		EBE5B7B82811AA95002F7053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE5B7B72811AA95002F7053 /* Assets.xcassets */; };
 		EBE5B7BB2811AA95002F7053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE5B7B92811AA95002F7053 /* LaunchScreen.storyboard */; };
+		EBE5B7C62811AAF5002F7053 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7C52811AAF5002F7053 /* DashboardViewController.swift */; };
+		EBE5B7C92811ACD4002F7053 /* DashboardHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7C82811ACD4002F7053 /* DashboardHeaderView.swift */; };
+		EBE5B7CB2811ACDF002F7053 /* DashboardHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE5B7CA2811ACDF002F7053 /* DashboardHeaderView.xib */; };
+		EBE5B7CE2811B31A002F7053 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7CD2811B31A002F7053 /* DashboardViewModel.swift */; };
+		EBE5B7D22811B3DC002F7053 /* DashboardHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7D02811B3DC002F7053 /* DashboardHistoryCell.swift */; };
+		EBE5B7D32811B3DC002F7053 /* DashboardHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE5B7D12811B3DC002F7053 /* DashboardHistoryCell.xib */; };
+		EBE5B7D52811C48E002F7053 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7D42811C48E002F7053 /* TransactionViewController.swift */; };
+		EBE5B7D72811C4AD002F7053 /* TransactionTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7D62811C4AD002F7053 /* TransactionTypeViewController.swift */; };
+		EBE5B7D92811C87E002F7053 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7D82811C87E002F7053 /* TransactionViewModel.swift */; };
+		EBE5B7DB2811C891002F7053 /* TransactionTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7DA2811C891002F7053 /* TransactionTypeViewModel.swift */; };
+		EBE5B7DE2811CA76002F7053 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7DC2811CA76002F7053 /* TitleCell.swift */; };
+		EBE5B7DF2811CA76002F7053 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE5B7DD2811CA76002F7053 /* TitleCell.xib */; };
+		EBE5B7E128124063002F7053 /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7E028124063002F7053 /* AddTransactionViewController.swift */; };
+		EBE5B7E32812411A002F7053 /* AddTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7E22812411A002F7053 /* AddTransactionViewModel.swift */; };
+		EBE5B7E628124AE9002F7053 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7E528124AE9002F7053 /* UIViewController+Extension.swift */; };
+		EBE5B7E828124B1B002F7053 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7E728124B1B002F7053 /* AlertModel.swift */; };
+		EBE5B7F228125699002F7053 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE5B7F128125699002F7053 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBE5B7A82811AA95002F7053 /* Spendwise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spendwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE5B7AB2811AA95002F7053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBE5B7AD2811AA95002F7053 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBE5B7AF2811AA95002F7053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBE5B7B22811AA95002F7053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBE5B7B52811AA95002F7053 /* Spendwise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spendwise.xcdatamodel; sourceTree = "<group>"; };
 		EBE5B7B72811AA95002F7053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE5B7BA2811AA95002F7053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBE5B7BC2811AA95002F7053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE5B7C52811AAF5002F7053 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		EBE5B7C82811ACD4002F7053 /* DashboardHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardHeaderView.swift; sourceTree = "<group>"; };
+		EBE5B7CA2811ACDF002F7053 /* DashboardHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardHeaderView.xib; sourceTree = "<group>"; };
+		EBE5B7CD2811B31A002F7053 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		EBE5B7D02811B3DC002F7053 /* DashboardHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardHistoryCell.swift; sourceTree = "<group>"; };
+		EBE5B7D12811B3DC002F7053 /* DashboardHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardHistoryCell.xib; sourceTree = "<group>"; };
+		EBE5B7D42811C48E002F7053 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		EBE5B7D62811C4AD002F7053 /* TransactionTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTypeViewController.swift; sourceTree = "<group>"; };
+		EBE5B7D82811C87E002F7053 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		EBE5B7DA2811C891002F7053 /* TransactionTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTypeViewModel.swift; sourceTree = "<group>"; };
+		EBE5B7DC2811CA76002F7053 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		EBE5B7DD2811CA76002F7053 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		EBE5B7E028124063002F7053 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		EBE5B7E22812411A002F7053 /* AddTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewModel.swift; sourceTree = "<group>"; };
+		EBE5B7E528124AE9002F7053 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		EBE5B7E728124B1B002F7053 /* AlertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		EBE5B7F128125699002F7053 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +90,88 @@
 		EBE5B7AA2811AA95002F7053 /* Spendwise */ = {
 			isa = PBXGroup;
 			children = (
+				EBE5B7F02812568C002F7053 /* Constant */,
+				EBE5B7E428124AE0002F7053 /* Extension */,
+				EBE5B7CF2811B3BF002F7053 /* TableCell */,
+				EBE5B7C72811ACB0002F7053 /* UIView */,
 				EBE5B7AB2811AA95002F7053 /* AppDelegate.swift */,
 				EBE5B7AD2811AA95002F7053 /* SceneDelegate.swift */,
-				EBE5B7AF2811AA95002F7053 /* ViewController.swift */,
 				EBE5B7B12811AA95002F7053 /* Main.storyboard */,
+				EBE5B7C42811AACF002F7053 /* Model */,
+				EBE5B7C32811AAC8002F7053 /* ViewModel */,
+				EBE5B7C22811AAC0002F7053 /* ViewControllers */,
 				EBE5B7B72811AA95002F7053 /* Assets.xcassets */,
 				EBE5B7B92811AA95002F7053 /* LaunchScreen.storyboard */,
 				EBE5B7BC2811AA95002F7053 /* Info.plist */,
 				EBE5B7B42811AA95002F7053 /* Spendwise.xcdatamodeld */,
 			);
 			path = Spendwise;
+			sourceTree = "<group>";
+		};
+		EBE5B7C22811AAC0002F7053 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBE5B7C52811AAF5002F7053 /* DashboardViewController.swift */,
+				EBE5B7E028124063002F7053 /* AddTransactionViewController.swift */,
+				EBE5B7D42811C48E002F7053 /* TransactionViewController.swift */,
+				EBE5B7D62811C4AD002F7053 /* TransactionTypeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EBE5B7C32811AAC8002F7053 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EBE5B7CD2811B31A002F7053 /* DashboardViewModel.swift */,
+				EBE5B7E22812411A002F7053 /* AddTransactionViewModel.swift */,
+				EBE5B7D82811C87E002F7053 /* TransactionViewModel.swift */,
+				EBE5B7DA2811C891002F7053 /* TransactionTypeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EBE5B7C42811AACF002F7053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBE5B7E728124B1B002F7053 /* AlertModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBE5B7C72811ACB0002F7053 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				EBE5B7C82811ACD4002F7053 /* DashboardHeaderView.swift */,
+				EBE5B7CA2811ACDF002F7053 /* DashboardHeaderView.xib */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		EBE5B7CF2811B3BF002F7053 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				EBE5B7D02811B3DC002F7053 /* DashboardHistoryCell.swift */,
+				EBE5B7D12811B3DC002F7053 /* DashboardHistoryCell.xib */,
+				EBE5B7DC2811CA76002F7053 /* TitleCell.swift */,
+				EBE5B7DD2811CA76002F7053 /* TitleCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		EBE5B7E428124AE0002F7053 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EBE5B7E528124AE9002F7053 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EBE5B7F02812568C002F7053 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				EBE5B7F128125699002F7053 /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE5B7CB2811ACDF002F7053 /* DashboardHeaderView.xib in Resources */,
 				EBE5B7BB2811AA95002F7053 /* LaunchScreen.storyboard in Resources */,
+				EBE5B7DF2811CA76002F7053 /* TitleCell.xib in Resources */,
+				EBE5B7D32811B3DC002F7053 /* DashboardHistoryCell.xib in Resources */,
 				EBE5B7B82811AA95002F7053 /* Assets.xcassets in Resources */,
 				EBE5B7B32811AA95002F7053 /* Main.storyboard in Resources */,
 			);
@@ -141,10 +248,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE5B7DE2811CA76002F7053 /* TitleCell.swift in Sources */,
+				EBE5B7F228125699002F7053 /* Constant.swift in Sources */,
+				EBE5B7D72811C4AD002F7053 /* TransactionTypeViewController.swift in Sources */,
+				EBE5B7C92811ACD4002F7053 /* DashboardHeaderView.swift in Sources */,
+				EBE5B7E628124AE9002F7053 /* UIViewController+Extension.swift in Sources */,
+				EBE5B7E828124B1B002F7053 /* AlertModel.swift in Sources */,
 				EBE5B7B62811AA95002F7053 /* Spendwise.xcdatamodeld in Sources */,
-				EBE5B7B02811AA95002F7053 /* ViewController.swift in Sources */,
+				EBE5B7E128124063002F7053 /* AddTransactionViewController.swift in Sources */,
 				EBE5B7AC2811AA95002F7053 /* AppDelegate.swift in Sources */,
+				EBE5B7D22811B3DC002F7053 /* DashboardHistoryCell.swift in Sources */,
+				EBE5B7CE2811B31A002F7053 /* DashboardViewModel.swift in Sources */,
 				EBE5B7AE2811AA95002F7053 /* SceneDelegate.swift in Sources */,
+				EBE5B7E32812411A002F7053 /* AddTransactionViewModel.swift in Sources */,
+				EBE5B7DB2811C891002F7053 /* TransactionTypeViewModel.swift in Sources */,
+				EBE5B7C62811AAF5002F7053 /* DashboardViewController.swift in Sources */,
+				EBE5B7D52811C48E002F7053 /* TransactionViewController.swift in Sources */,
+				EBE5B7D92811C87E002F7053 /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
